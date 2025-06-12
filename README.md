@@ -1,15 +1,11 @@
-Welcome to your new dbt project!
+# eCART Simulation Pipeline
 
-### Using the starter project
+## With Public FHIR Data
 
-Try running the following commands:
-- dbt run
-- dbt test
+The objective of this repository is to simulate a data pipeline for predictive modeling of patient deterioration risk.
 
+Electronic Cardiac Arrest Risk Triage (eCART) is a clinical early warning system that uses Machine Learning to output a patient risk score, indicating their likelihood of deterioration, resulting in outcomes such as ICU transfer, or an imminent code event.
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+This project will consume sample FHIR patient data from a public API to store raw Vitals, Labs, Patient Data, and Historical Trends. The pipeline will clean, map, and build eCART-like Machine Learning training and testing data, and a Logistic Regression model will be built to predict patient deterioration risks.
+
+[Find me on Linkedin](https://www.linkedin.com/in/chrisadan/)
