@@ -8,6 +8,8 @@ Electronic Cardiac Arrest Risk Triage (eCART) is a clinical early warning system
 
 This project will consume sample FHIR patient data from a public API to store raw Vitals, Labs, Patient Data, and Historical Trends. The pipeline will clean, map, and build eCART-like Machine Learning training and testing data, and a Logistic Regression model will be built to predict patient deterioration risks.
 
+Raw FHIR data is stored temporarily in scripts/data/raw_json during extraction, organized by Resource Type. This directory is excluded from version control, regenerate using scripts/extract_fhir.py.
+
 [Find me on Linkedin](https://www.linkedin.com/in/chrisadan/)
 
 ## Acknowledgements

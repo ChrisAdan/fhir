@@ -1,4 +1,5 @@
-
+scripts/data/raw_json/
 target/
 dbt_packages/
 logs/
+.envrc
