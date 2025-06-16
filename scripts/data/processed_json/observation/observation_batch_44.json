@@ -1,0 +1,2838 @@
+[
+  {
+    "resourceType": "Observation",
+    "id": "10308305",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:00:31.978+00:00",
+      "source": "#obbndmkXiIjiNp1E"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/647577"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10313302",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:03:36.098+00:00",
+      "source": "#drgkDXX0CGmseFQO"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/647577"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10318299",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:06:13.895+00:00",
+      "source": "#XjMusxdprsRgczyU"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/647577"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10323304",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:08:47.620+00:00",
+      "source": "#luLEvFu0jF9kwXvW"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/647577"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10311721",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:02:39.670+00:00",
+      "source": "#Tv7pkgvCDy3nX6Xu"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/646811"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10316719",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:05:24.720+00:00",
+      "source": "#ew6bfPOVk00LNHLP"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/646811"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10321710",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:08:00.804+00:00",
+      "source": "#MbZWuCzuSRJcCmSQ"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/646811"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10307571",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:00:04.881+00:00",
+      "source": "#1QDo92sGaooDJxeu"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/7c916d7a-f493-4391-b0f9-d40b82a7d7ae"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10312570",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:03:10.275+00:00",
+      "source": "#QJpEyZJd7tbFdQwc"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/7c916d7a-f493-4391-b0f9-d40b82a7d7ae"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10317568",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:05:50.947+00:00",
+      "source": "#jJ9NzMRVhveLnjjv"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/7c916d7a-f493-4391-b0f9-d40b82a7d7ae"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10322561",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:08:25.990+00:00",
+      "source": "#FVgqWxC5WxJN91M2"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/7c916d7a-f493-4391-b0f9-d40b82a7d7ae"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10309922",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:01:36.355+00:00",
+      "source": "#QVzYLC7nd2PtFEEV"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/qt94ey71-a034-49cb-9262-43ea87b31293"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10314922",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:04:26.863+00:00",
+      "source": "#c4FZAW7PdjfRxFnw"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/qt94ey71-a034-49cb-9262-43ea87b31293"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10319917",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:07:03.253+00:00",
+      "source": "#EHOv55Qw69seffF2"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/qt94ey71-a034-49cb-9262-43ea87b31293"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10324922",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:09:37.943+00:00",
+      "source": "#Q9CPWJOTTO9BKId4"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/qt94ey71-a034-49cb-9262-43ea87b31293"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10308775",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:00:52.088+00:00",
+      "source": "#yiRqwdHtvDdYxAje"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/645903"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10313775",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:03:50.958+00:00",
+      "source": "#SlEjJnmtALKrXkga"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/645903"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10318775",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:06:29.042+00:00",
+      "source": "#IzyscnxSyj9Fpg7q"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/645903"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10323782",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:09:02.206+00:00",
+      "source": "#GMtUWtXDiQcntbML"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/645903"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10307763",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:00:11.628+00:00",
+      "source": "#vl4ovynERPIWUpir"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/597247"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10312762",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:03:17.449+00:00",
+      "source": "#wTgJE93mvMN41tUO"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/597247"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10317758",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:05:56.403+00:00",
+      "source": "#GW0ycjjcu2Sm9VNZ"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/597247"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10322758",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:08:31.986+00:00",
+      "source": "#aHml2SD8ahCZG4TG"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/597247"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "642509",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-18T05:31:09.582+00:00",
+      "source": "#LDpCkpjpjMgm0Szr"
+    },
+    "status": "final",
+    "code": {
+      "coding": [
+        {
+          "system": "http ://loinc.org",
+          "code": "29463-7"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/642503"
+    },
+    "encounter": {
+      "reference": "Encounter/642508"
+    },
+    "effectiveInstant": "2020-03-18T05:31:09.573+00:00",
+    "issued": "2020-03-18T05:31:09.573+00:00",
+    "valueQuantity": {
+      "value": 82.5,
+      "unit": "kg",
+      "system": "http://unitsofmeasure.org",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "642510",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-18T05:31:09.764+00:00",
+      "source": "#orgExaT2iYSJU6o6"
+    },
+    "status": "final",
+    "code": {
+      "text": "averageIap"
+    },
+    "subject": {
+      "reference": "Patient/642503"
+    },
+    "effectivePeriod": {
+      "start": "2020-03-18T05:31:09+00:00",
+      "end": "2020-03-18T05:31:19+00:00"
+    },
+    "issued": "2020-03-18T05:31:09.755+00:00",
+    "valueQuantity": {
+      "value": 3.0,
+      "unit": "mmHg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "642511",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-18T05:31:09.846+00:00",
+      "source": "#4KFeJKCjZ0HgIdXD"
+    },
+    "status": "final",
+    "code": {
+      "text": "averageTemperature"
+    },
+    "subject": {
+      "reference": "Patient/642503"
+    },
+    "effectivePeriod": {
+      "start": "2020-03-18T05:31:09+00:00",
+      "end": "2020-03-18T05:31:19+00:00"
+    },
+    "issued": "2020-03-18T05:31:09.755+00:00",
+    "valueQuantity": {
+      "value": 1.0,
+      "unit": "c"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "642512",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-18T05:31:09.916+00:00",
+      "source": "#UiZFRQOW2bAM9tsu"
+    },
+    "status": "final",
+    "code": {
+      "text": "averageRespitoryRate"
+    },
+    "subject": {
+      "reference": "Patient/642503"
+    },
+    "effectivePeriod": {
+      "start": "2020-03-18T05:31:09+00:00",
+      "end": "2020-03-18T05:31:19+00:00"
+    },
+    "issued": "2020-03-18T05:31:09.755+00:00",
+    "valueQuantity": {
+      "value": 2.0,
+      "unit": "RBpm"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "642513",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-18T05:31:09.988+00:00",
+      "source": "#OUtoScXlqsUrWbXZ"
+    },
+    "status": "final",
+    "code": {
+      "text": "urineVolumeDelta"
+    },
+    "subject": {
+      "reference": "Patient/642503"
+    },
+    "effectivePeriod": {
+      "start": "2020-03-18T05:31:09+00:00",
+      "end": "2020-03-18T05:31:19+00:00"
+    },
+    "issued": "2020-03-18T05:31:09.755+00:00",
+    "valueQuantity": {
+      "value": 4.0,
+      "unit": "ml"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10306902",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T09:59:25.132+00:00",
+      "source": "#zzknaFbR4SnnFPIv"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/642503"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10311906",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:02:46.522+00:00",
+      "source": "#JJnwgLtWDFLbKKwl"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/642503"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10316900",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:05:31.156+00:00",
+      "source": "#lfzxgZUOudMJR2QU"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/642503"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10321902",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:08:06.543+00:00",
+      "source": "#y9CN58EsXsWn9BX3"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/642503"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10308871",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:00:56.797+00:00",
+      "source": "#Ijne1bSGkJ07Sea8"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/639204"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10313870",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:03:53.565+00:00",
+      "source": "#Chsw8BY5nMmUjUOu"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/639204"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10318867",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:06:31.803+00:00",
+      "source": "#2Uc3azsWjTBRaDE2"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/639204"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10323873",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:09:04.883+00:00",
+      "source": "#4dSPXAT1ONjiIMIs"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/639204"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10307317",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T09:59:54.815+00:00",
+      "source": "#HLhB0XOtBjepJz21"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/643882"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10312318",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:03:00.426+00:00",
+      "source": "#LjcFN8CZgB2epHrZ"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/643882"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10317320",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:05:43.567+00:00",
+      "source": "#Lb3mpfDRCLLdZzHM"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/643882"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10322313",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:08:18.201+00:00",
+      "source": "#f3HJVwuIbpzQBgdB"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/643882"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10311810",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:02:42.760+00:00",
+      "source": "#OFxFD5OWMuOW6oVF"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/645516"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10316811",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:05:27.423+00:00",
+      "source": "#rW3y7zqYD3XfTYzK"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/645516"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10321818",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:08:03.863+00:00",
+      "source": "#BPtcJ27CTEo10f5A"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/645516"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10310613",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:02:00.941+00:00",
+      "source": "#WDJ557xk2xBMydue"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/dda764c3-bcc4-485e-b229-0a513faa62e2"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10315614",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:04:49.659+00:00",
+      "source": "#SzLwRVYrbl6X235o"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/dda764c3-bcc4-485e-b229-0a513faa62e2"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10320611",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:07:24.350+00:00",
+      "source": "#cjJ1rhRl4UIjY4WX"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/dda764c3-bcc4-485e-b229-0a513faa62e2"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10325619",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:10:02.721+00:00",
+      "source": "#bGpZF0cJJ6avUlww"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/dda764c3-bcc4-485e-b229-0a513faa62e2"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10311641",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:02:37.411+00:00",
+      "source": "#GJa6ypz7OomN1KJ9"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/597407"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10316640",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:05:22.290+00:00",
+      "source": "#LqtK0CACgMF7RyGs"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/597407"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10321646",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:07:58.442+00:00",
+      "source": "#OF7j6MacFytADVX2"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/597407"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10309964",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:01:37.686+00:00",
+      "source": "#BCzANTpRu72hwNhy"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/644820"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10314964",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:04:28.090+00:00",
+      "source": "#wnyc47YYaxlsUHff"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/644820"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10319966",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:07:04.604+00:00",
+      "source": "#sfLoAJ2rE18gZZQF"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/644820"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10324967",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:09:39.236+00:00",
+      "source": "#z772tlwBGCBXg6Hx"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/644820"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10311765",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:02:41.046+00:00",
+      "source": "#zRkvqfIGSiNjmWIx"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/641131"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10316767",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:05:26.056+00:00",
+      "source": "#0joW0fk6L169m9YN"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/641131"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10321769",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:08:02.536+00:00",
+      "source": "#CIjpN4WJwdJ8Eqf8"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/641131"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10307543",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:00:04.150+00:00",
+      "source": "#ltTs7RQj10wohFAN"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/643969"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10312546",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:03:09.517+00:00",
+      "source": "#o7C9Wi7hHMg3XqCb"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/643969"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10317546",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:05:50.279+00:00",
+      "source": "#80Gx86zKFiXbT1Hk"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/643969"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10322542",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:08:25.519+00:00",
+      "source": "#7IdhfyldmJGXdu4e"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/643969"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10310670",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:02:02.758+00:00",
+      "source": "#aL1WLojiZ5CVRxRw"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/618669"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10315670",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:04:51.341+00:00",
+      "source": "#HrkOTQ9AovY22ygO"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/618669"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10320672",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:07:26.260+00:00",
+      "source": "#NDD1ZKvQjxEKxoFV"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/618669"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10325670",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:10:04.139+00:00",
+      "source": "#G7ybMK5xh3jojaAv"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/618669"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10310340",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:01:49.954+00:00",
+      "source": "#gb5ap5tP4vVUEJiF"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/644835"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10315342",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:04:40.578+00:00",
+      "source": "#spHltmY7y9U60SZ7"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/644835"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10320341",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:07:15.892+00:00",
+      "source": "#bb65TgPm8dRgqfJL"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/644835"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10325351",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:09:52.920+00:00",
+      "source": "#Wyy1b30KNPYurGO7"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/644835"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "2849540",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2022-03-24T23:48:10.161+00:00",
+      "source": "#3w3zy17EuHDMNSjh"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/0565b2a4-d2b2-46e6-9ded-1be9174d25bc"
+    },
+    "effectiveDateTime": "2022-03-24T18:50:11-04:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10311288",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:02:25.880+00:00",
+      "source": "#ltEpDFUAhvBOreTA"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/0565b2a4-d2b2-46e6-9ded-1be9174d25bc"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10316286",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:05:11.311+00:00",
+      "source": "#sVxl7KQTB1W4Oshu"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/0565b2a4-d2b2-46e6-9ded-1be9174d25bc"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10321285",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:07:47.208+00:00",
+      "source": "#jAffbLLWSIf87Lhr"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/0565b2a4-d2b2-46e6-9ded-1be9174d25bc"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10308928",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:00:59.104+00:00",
+      "source": "#Ti1X3DHRfPgQ8Gr1"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/fb6d820e-bded-433e-ab6a-fe8e58c88814"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10313926",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:03:54.993+00:00",
+      "source": "#gSvbsGAsbsPj0eof"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/fb6d820e-bded-433e-ab6a-fe8e58c88814"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10318927",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:06:33.477+00:00",
+      "source": "#F5kVXqoRKB224ZoG"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/fb6d820e-bded-433e-ab6a-fe8e58c88814"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10323925",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:09:06.490+00:00",
+      "source": "#R35XBCqTE78HxtyI"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/fb6d820e-bded-433e-ab6a-fe8e58c88814"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10307827",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:00:13.531+00:00",
+      "source": "#WfDsSfaLdlTuYqYR"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/597261"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10312825",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:03:19.260+00:00",
+      "source": "#YedQ3bZsI4fvLLUp"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/597261"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10317823",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:05:58.250+00:00",
+      "source": "#fNvAvgpzedbtN030"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/597261"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10322831",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:08:33.876+00:00",
+      "source": "#FkNMTngD9OfeMh31"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/597261"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "2918257",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2022-04-28T06:55:03.105+00:00",
+      "source": "#BqaTocBkeS2gE0Pm"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Weight, 79.9 Kg</div>"
+    },
+    "status": "final",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "3141-9"
+        }
+      ],
+      "text": "Weight"
+    },
+    "subject": {
+      "reference": "Patient/39aec908-1d49-487c-a484-df2fef3f121e"
+    },
+    "effectiveDateTime": "2022-04-26T12:39:36-04:00",
+    "valueQuantity": {
+      "value": 79.9,
+      "unit": "Kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10308345",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:00:34.956+00:00",
+      "source": "#HXsKyAVw7YvPj4MR"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/625373"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10313351",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:03:38.268+00:00",
+      "source": "#9bRQNvbnaByI3JUP"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/625373"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10318341",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:06:15.254+00:00",
+      "source": "#XogxjPWZuQ3VvJdp"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/625373"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10323333",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:08:48.905+00:00",
+      "source": "#IPCzD8f4vFfQwBJJ"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/625373"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10309533",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:01:21.865+00:00",
+      "source": "#pwZl3eTTeReKXTL6"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/648230"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10314535",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:04:15.470+00:00",
+      "source": "#Mlj9kSMAXgvr1IXm"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/648230"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10319536",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:06:51.689+00:00",
+      "source": "#YOufNcWzIVXIEDhl"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/648230"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10324530",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:09:25.755+00:00",
+      "source": "#ZEfDRf6I4gDDsrKU"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/648230"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10311608",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:02:36.056+00:00",
+      "source": "#iN6ya2bLxnFfR7yv"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/645599"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10316602",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:05:21.145+00:00",
+      "source": "#5VW9MZjq0e6bKbSC"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/645599"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10321599",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:07:57.067+00:00",
+      "source": "#S0IicomQaz5LIUIN"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/645599"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10307014",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T09:59:35.525+00:00",
+      "source": "#I0po7qnnaV5ylatJ"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/646007"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10312013",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:02:50.709+00:00",
+      "source": "#T6uqcfIBuistb0Ej"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/646007"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10317012",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:05:34.350+00:00",
+      "source": "#uKx5K3EGkoYVQC72"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/646007"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10322015",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:08:09.997+00:00",
+      "source": "#E0i06CusvHJ9dGS9"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/646007"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10309791",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:01:31.225+00:00",
+      "source": "#qvJc9GbP2rmZtYEK"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/625604"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10314790",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:04:22.965+00:00",
+      "source": "#lEIKrMeV6xcYMivN"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/625604"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10319792",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:06:59.514+00:00",
+      "source": "#fHT4oaYtqRXSV8y5"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/625604"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10324792",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:09:34.090+00:00",
+      "source": "#ASUMzauAJ2ud9GAz"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/625604"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10308412",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:00:37.851+00:00",
+      "source": "#6Cw6y1aVDMvDLXk7"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/648926"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10313412",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:03:40.004+00:00",
+      "source": "#ouOLrxurFu9G3C7T"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/648926"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10318418",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:06:17.583+00:00",
+      "source": "#V1VdNu5ElmktCJNY"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/648926"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "10323411",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2023-04-19T10:08:51.072+00:00",
+      "source": "#aIwbtg9khX1aPEyk"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://foo",
+          "code": "12345"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/648926"
+    },
+    "effectiveDateTime": "2023-04-19T09:34:50+01:00",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "kg",
+      "system": "http://bar",
+      "code": "kg"
+    }
+  }
+]

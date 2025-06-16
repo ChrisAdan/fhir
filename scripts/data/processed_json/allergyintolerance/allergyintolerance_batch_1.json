@@ -1,0 +1,4812 @@
+[
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "Sooraj",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-19T10:06:24.851+00:00",
+      "source": "#5XMgNbv9abqZCbZK"
+    },
+    "type": "allergy",
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227037002",
+          "display": "Pollen Allergy"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/Sooraj"
+    },
+    "recorder": {
+      "reference": "Practitioner/Manjitha"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "630463",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-28T10:30:02.437+00:00",
+      "source": "#NjTsVotkP9oBN05Y"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "300913006",
+          "display": "Shellfish allergy"
+        }
+      ],
+      "text": "Shellfish allergy"
+    },
+    "patient": {
+      "reference": "Patient/630455"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "628454",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-27T14:58:56.436+00:00",
+      "source": "#kq7tGzlyvz1HjUPF"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>No Known Drug Allergy</p>\n      <p>recordedDate:2015-08-06</p>\n    </div>"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "409137002",
+          "display": "No Known Drug Allergy (situation)"
+        }
+      ],
+      "text": "NKDA"
+    },
+    "patient": {
+      "reference": "Patient/628452"
+    },
+    "recordedDate": "2015-08-06T15:37:31-06:00",
+    "recorder": {
+      "reference": "Practitioner/627637"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1097852",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-04-14T07:30:03.079+00:00",
+      "source": "#3O8YAC7aXRyXCsUl"
+    },
+    "contained": [
+      {
+        "resourceType": "Encounter",
+        "id": "87543",
+        "status": "in-progress",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        }
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://acme.com/ids/patients/risks",
+        "value": "49476534"
+      }
+    ],
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227493005",
+          "display": "Cashew nuts"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/1097719"
+    },
+    "encounter": {
+      "reference": "#87543"
+    },
+    "onsetDateTime": "2004",
+    "recordedDate": "2014-10-09T14:58:00+11:00",
+    "lastOccurrence": "2012-06",
+    "note": [
+      {
+        "text": "The criticality is high becasue of the observed anaphylactic reaction when challenged with cashew extract."
+      }
+    ],
+    "reaction": [
+      {
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1160593",
+              "display": "cashew nut allergenic extract Injectable Product"
+            }
+          ]
+        },
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylactic reaction"
+              }
+            ]
+          }
+        ],
+        "description": "Challenge Protocol. Severe reaction to subcutaneous cashew extract. Epinephrine administered",
+        "onset": "2012-06-12",
+        "severity": "severe",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneous route"
+            }
+          ]
+        }
+      },
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "The patient reports that the onset of urticaria was within 15 minutes of eating cashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "631590",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-28T17:33:56.838+00:00",
+      "source": "#XS2RufrjSpsOKj9P"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "232347008",
+          "display": "Dander (animal) allergy"
+        }
+      ],
+      "text": "Dander (animal) allergy"
+    },
+    "patient": {
+      "reference": "Patient/631545"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "44670758",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2024-04-17T10:08:51.891+00:00",
+      "source": "#rl9AdbSHOveODCai"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      "food"
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "91938006",
+          "display": "Allergy to fruit (finding)"
+        }
+      ],
+      "text": "\u5c0d\u8349\u8393\u904e\u654f"
+    },
+    "patient": {
+      "reference": "Patient/2cc6fba2-a8e8-4ac6-9f58-a750e74c60d4"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "698010",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-24T06:19:29.143+00:00",
+      "source": "#SnPcJshLqo7rgHnk"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Ibuprofen causes urticaria</div>"
+    },
+    "type": "allergy",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "387207008",
+          "display": "Ibuprofen"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/697934"
+    },
+    "recorder": {
+      "reference": "Practitioner/30164"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "126485001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "698011",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-24T06:19:29.143+00:00",
+      "source": "#SnPcJshLqo7rgHnk"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">eggs causes hives</div>"
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "91930004",
+          "display": "Allergy to eggs"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/697934"
+    },
+    "onsetAge": {
+      "value": 4,
+      "unit": "year",
+      "system": "http://unitsofmeasure.org",
+      "code": "a"
+    },
+    "recorder": {
+      "reference": "Practitioner/30164"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "247472004",
+                "display": "Hives"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "422587007",
+                "display": "Nausea"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "422400008",
+                "display": "Vomiting"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "46242577",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2025-02-18T21:34:00.160+00:00",
+      "source": "#pJ0aFgGG8qTVpaGG"
+    },
+    "text": {
+      "status": "generated"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      "food"
+    ],
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "91930004",
+          "display": "Allergy to eggs"
+        }
+      ],
+      "text": "Allergy to eggs"
+    },
+    "patient": {
+      "reference": "Patient/619789"
+    },
+    "recordedDate": "2019-11-27T15:37:31-06:00",
+    "recorder": {
+      "reference": "Practitioner/1058"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1563006",
+                "display": "Protein S deficiency"
+              }
+            ]
+          }
+        ],
+        "description": "Protein S deficiency",
+        "severity": "severe",
+        "note": [
+          {
+            "text": "Egg protein intake is not good for Patient."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "630692",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-28T11:25:59.558+00:00",
+      "source": "#CYcT58w4xnzyKVV7"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "232347008",
+          "display": "Dander (animal) allergy"
+        }
+      ],
+      "text": "Dander (animal) allergy"
+    },
+    "patient": {
+      "reference": "Patient/630672"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "631990",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-29T06:41:46.232+00:00",
+      "source": "#UAG3lbVqzy0vgWJx"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419263009",
+          "display": "Allergy to tree pollen"
+        }
+      ],
+      "text": "Allergy to tree pollen"
+    },
+    "patient": {
+      "reference": "Patient/631974"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1160593",
+              "display": "cashewnutallergenicextractInjectableProduct"
+            }
+          ]
+        },
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylacticreaction"
+              }
+            ]
+          }
+        ],
+        "description": "ChallengeProtocol.Severereactiontosubcutaneouscashewextract.Epinephrineadministered",
+        "onset": "2012-06-12",
+        "severity": "severe",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneousroute"
+            }
+          ]
+        }
+      },
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "Thepatientreportsthattheonsetofurticariawaswithin15minutesofeatingcashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "Madhav",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-17T09:42:36.592+00:00",
+      "source": "#LX7Yv2M2R8qPsoU2"
+    },
+    "type": "allergy",
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227037002",
+          "display": "Lactose intolerent"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/Madhav"
+    },
+    "recorder": {
+      "reference": "Practitioner/practitioner"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "630731",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-28T11:43:51.996+00:00",
+      "source": "#uo1eJOHNdzpxhHwM"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419263009",
+          "display": "Allergy to tree pollen"
+        }
+      ],
+      "text": "Allergy to tree pollen"
+    },
+    "patient": {
+      "reference": "Patient/630715"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "636268",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-04T07:50:35.212+00:00",
+      "source": "#5YtLFh9JQ11lOVzZ"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "232350006",
+          "display": "House dust mite allergy"
+        }
+      ],
+      "text": "House dust mite allergy"
+    },
+    "patient": {
+      "reference": "Patient/636251"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1160593",
+              "display": "cashewnutallergenicextractInjectableProduct"
+            }
+          ]
+        },
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylacticreaction"
+              }
+            ]
+          }
+        ],
+        "description": "ChallengeProtocol.Severereactiontosubcutaneouscashewextract.Epinephrineadministered",
+        "onset": "2012-06-12",
+        "severity": "severe",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneousroute"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "45682151",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2025-01-09T02:38:14.213+00:00",
+      "source": "#jaYOk5r4wBXwZ8X1"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "396331005",
+          "display": "Celiac disease"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/c8b7b590-7dd1-4819-bc0a-0ec247487a67"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "Sisira",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-17T09:55:11.716+00:00",
+      "source": "#QM11Gs6rX0xsSUVA"
+    },
+    "type": "allergy",
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227037002",
+          "display": "Dust Allergy"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/Sisira"
+    },
+    "recorder": {
+      "reference": "Practitioner/Suresh"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1019701",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-26T20:32:31.276+00:00",
+      "source": "#fuQTDBY9IQjdqOLD"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">&lt;b&gt;Category:&lt;/b&gt;  medication  &lt;b&gt;Display:&lt;/b&gt;  Penicillin G  &lt;b&gt;Severity:&lt;/b&gt;  high &lt;b&gt;Reaction:&lt;/b&gt;  Hives</div>"
+    },
+    "clinicalStatus": {
+      "text": "active"
+    },
+    "verificationStatus": {
+      "text": "unconfirmed"
+    },
+    "category": [
+      "medication"
+    ],
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "7980",
+          "display": "Penicillin G"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/1019700"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "display": "Hives"
+              }
+            ]
+          }
+        ],
+        "description": "Hives"
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "45682148",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2025-01-09T02:38:02.397+00:00",
+      "source": "#LArRT7MDbBQkYLMK"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "396331005",
+          "display": "Celiac disease"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/1b0580b9-1ee3-4353-b555-64c797d57564"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "632803",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-29T20:38:52.314+00:00",
+      "source": "#2pJGAlAfd6h8Y2jm"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "232350006",
+          "display": "House dust mite allergy"
+        }
+      ],
+      "text": "House dust mite allergy"
+    },
+    "patient": {
+      "reference": "Patient/632786"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1160593",
+              "display": "cashewnutallergenicextractInjectableProduct"
+            }
+          ]
+        },
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylacticreaction"
+              }
+            ]
+          }
+        ],
+        "description": "ChallengeProtocol.Severereactiontosubcutaneouscashewextract.Epinephrineadministered",
+        "onset": "2012-06-12",
+        "severity": "severe",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneousroute"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1604751",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-10-14T03:47:49.960+00:00",
+      "source": "#aJ7oxiHC3rI2xUnq"
+    },
+    "identifier": [
+      {
+        "value": "5678"
+      }
+    ],
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "unconfirmed",
+          "display": "Unconfirmed"
+        }
+      ]
+    },
+    "type": "intolerance",
+    "category": [
+      "food"
+    ],
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "3718001",
+          "display": "Cow's milk"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/6bce000f-73a4-415d-971e-753cc484778d",
+      "display": "Patient"
+    },
+    "encounter": {
+      "reference": "Encounter/c95a4972-df9f-4606-944b-a9ac26c6a31e",
+      "display": "Encounter 2019-11-07"
+    },
+    "onsetDateTime": "2019-09-24T00:00:00+02:00",
+    "recordedDate": "2019-11-06T10:23:01+01:00",
+    "recorder": {
+      "reference": "Practitioner/id1573049493861",
+      "display": "Dr. L. John"
+    },
+    "lastOccurrence": "2019-10-22T00:00:00+02:00",
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "271807003",
+                "display": "Rash"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "632884",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-29T20:43:26.884+00:00",
+      "source": "#rWxboAOLI5tppYNo"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419263009",
+          "display": "Allergy to tree pollen"
+        }
+      ],
+      "text": "Allergy to tree pollen"
+    },
+    "patient": {
+      "reference": "Patient/632866"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "247472004",
+                "display": "Hives"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneousroute"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "Charan",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-13T06:50:12.327+00:00",
+      "source": "#6Iow1vGVViEUom76"
+    },
+    "type": "allergy",
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227037002",
+          "display": "skin infection (substance)"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/Charan"
+    },
+    "recorder": {
+      "reference": "Practitioner/chandu"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "620406",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-13T15:59:16.734+00:00",
+      "source": "#s9Wl5F29NZcKtcyP"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: medication</p><p><b>clinicalStatus</b>: Active <span>(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical code 'active' = 'Active', given as 'Active'})</span></p><p><b>verificationStatus</b>: Unconfirmed <span>(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-verification code 'unconfirmed' = 'Unconfirmed', given as 'Unconfirmed'})</span></p><p><b>category</b>: medication</p><p><b>criticality</b>: high</p><p><b>code</b>: Penicillin G <span>(Details : {RxNorm code '7980' = 'Penicillin G', given as 'Penicillin G'})</span></p><p><b>patient</b>: <a>Patient/example</a></p><p><b>recordedDate</b>: 01/03/2010</p><p><b>recorder</b>: <a>Practitioner/13</a></p><h3>Reactions</h3><table><tr><td>-</td><td><b>Manifestation</b></td></tr><tr><td>*</td><td>Hives <span>(Details : {SNOMED CT code '247472004' = 'Weal', given as 'Hives'})</span></td></tr></table></div>"
+    },
+    "identifier": [
+      {
+        "system": "http://acme.com/ids/patients/risks",
+        "value": "592922"
+      }
+    ],
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/ValueSet/allergyintolerance-clinical|4.0.0",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/ValueSet/allergyintolerance-verification|4.0.0",
+          "code": "confirmed",
+          "display": "confirmed"
+        }
+      ]
+    },
+    "type": "intolerance",
+    "category": [
+      "medication"
+    ],
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "7980",
+          "display": "Penicillin G"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/592922"
+    },
+    "onsetDateTime": "2004",
+    "recordedDate": "2010-03-01",
+    "recorder": {
+      "reference": "Patient/592922"
+    },
+    "asserter": {
+      "reference": "Patient/592922"
+    },
+    "lastOccurrence": "2012-06",
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "247472004",
+                "display": "Hives"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneous route"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "632919",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-29T20:44:50.682+00:00",
+      "source": "#lJXMnh5zwUiDpv7D"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "300913006",
+          "display": "Shellfish allergy"
+        }
+      ],
+      "text": "Shellfish allergy"
+    },
+    "patient": {
+      "reference": "Patient/632894"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1160593",
+              "display": "cashewnutallergenicextractInjectableProduct"
+            }
+          ]
+        },
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylacticreaction"
+              }
+            ]
+          }
+        ],
+        "description": "ChallengeProtocol.Severereactiontosubcutaneouscashewextract.Epinephrineadministered",
+        "onset": "2012-06-12",
+        "severity": "severe",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneousroute"
+            }
+          ]
+        }
+      },
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "Thepatientreportsthattheonsetofurticariawaswithin15minutesofeatingcashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1755819",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2021-01-20T10:12:07.145+00:00",
+      "source": "#3X5oTV53TmAiTgEL"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10-cm",
+          "code": "L40.1",
+          "display": "Generalized pustular psoriasis"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/1093760",
+      "display": "Amy Shaw"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1755829",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2021-01-20T10:16:59.746+00:00",
+      "source": "#ZaQXOUqq4ZiYWRad"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10-cm",
+          "code": "L40.1",
+          "display": "Generalized pustular psoriasis"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/1093760",
+      "display": "Amy Shaw"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1755831",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2021-01-20T10:18:31.037+00:00",
+      "source": "#n0jM56jtkvB1DXF8"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10-cm",
+          "code": "L40.1",
+          "display": "Generalized pustular psoriasis"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/1093760",
+      "display": "Amy Shaw"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1755836",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2021-01-20T10:19:54.926+00:00",
+      "source": "#v1508BzoetkmPoAh"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10-cm",
+          "code": "L40.1",
+          "display": "Generalized pustular psoriasis"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/1093760",
+      "display": "Amy Shaw"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1755858",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2021-01-20T10:56:22.177+00:00",
+      "source": "#5NSlFMrkMAJT90fQ"
+    },
+    "identifier": [
+      {
+        "system": "http://acme.com/ids/patients/risks",
+        "value": "49476534"
+      }
+    ],
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227493005",
+          "display": "Cashew nuts"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/1093760",
+      "display": "Amy Shaw"
+    },
+    "onsetDateTime": "2004",
+    "recordedDate": "2014-10-09T14:58:00+11:00",
+    "recorder": {
+      "reference": "Practitioner/example"
+    },
+    "asserter": {
+      "reference": "Patient/1093760",
+      "display": "Amy Shaw"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylactic reaction"
+              }
+            ]
+          }
+        ],
+        "onset": "2012-06-12",
+        "severity": "severe"
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1842905",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2021-02-02T06:41:46.432+00:00",
+      "source": "#K03DcxtUYgQdzzs5"
+    },
+    "identifier": [
+      {
+        "system": "http://acme.com/ids/patients/risks",
+        "value": "49476534"
+      }
+    ],
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active1",
+          "display": "Active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227493005",
+          "display": "Cashew nuts"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/1093760",
+      "display": "Amy Shaw"
+    },
+    "onsetDateTime": "2004",
+    "recordedDate": "2014-10-09T14:58:00+11:00",
+    "recorder": {
+      "reference": "Practitioner/example"
+    },
+    "asserter": {
+      "reference": "Patient/1093760",
+      "display": "Amy Shaw"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylactic reaction"
+              }
+            ]
+          }
+        ],
+        "onset": "2012-06-12"
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "630760",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-28T11:52:05.864+00:00",
+      "source": "#jWdbXBjJ9cenCxkn"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "300913006",
+          "display": "Shellfish allergy"
+        }
+      ],
+      "text": "Shellfish allergy"
+    },
+    "patient": {
+      "reference": "Patient/630752"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "630712",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-28T11:27:18.520+00:00",
+      "source": "#0AKjQT6CfGDfp0Yx"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419263009",
+          "display": "Allergy to tree pollen"
+        }
+      ],
+      "text": "Allergy to tree pollen"
+    },
+    "patient": {
+      "reference": "Patient/630696"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "634198",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-02T15:40:13.769+00:00",
+      "source": "#godYClk6ebjUt6t9"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419474003",
+          "display": "Allergy to mould"
+        }
+      ],
+      "text": "Allergy to mould"
+    },
+    "patient": {
+      "reference": "Patient/634182"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1160593",
+              "display": "cashew nut allergenic extract Injectable Product"
+            }
+          ]
+        },
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylacticreaction"
+              }
+            ]
+          }
+        ],
+        "description": "ChallengeProtocol.Severereactiontosubcutaneouscashewextract.Epinephrineadministered",
+        "onset": "2012-06-12",
+        "severity": "severe",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneous route"
+            }
+          ]
+        }
+      },
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "The patientreportsthattheonsetofurticariawaswithin15minutesofeatingcashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "636242",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-04T07:48:04.171+00:00",
+      "source": "#zQK1HhDgSQFBnN3C"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419474003",
+          "display": "Allergy to mould"
+        }
+      ],
+      "text": "Allergy to mould"
+    },
+    "patient": {
+      "reference": "Patient/636226"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1160593",
+              "display": "cashew nut allergenic extract Injectable Product"
+            }
+          ]
+        },
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylacticreaction"
+              }
+            ]
+          }
+        ],
+        "description": "ChallengeProtocol.Severereactiontosubcutaneouscashewextract.Epinephrineadministered",
+        "onset": "2012-06-12",
+        "severity": "severe",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneous route"
+            }
+          ]
+        }
+      },
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "The patientreportsthattheonsetofurticariawaswithin15minutesofeatingcashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "630604",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-28T11:10:07.110+00:00",
+      "source": "#HidEQfWjqDbuRrR6"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419263009",
+          "display": "Allergy to tree pollen"
+        }
+      ],
+      "text": "Allergy to tree pollen"
+    },
+    "patient": {
+      "reference": "Patient/630588"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "634118",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-02T10:43:58.614+00:00",
+      "source": "#uTFlWjr2fcHf62Xy"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419474003",
+          "display": "Allergy to mould"
+        }
+      ],
+      "text": "Allergy to mould"
+    },
+    "patient": {
+      "reference": "Patient/634102"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1160593",
+              "display": "cashew nut allergenic extract Injectable Product"
+            }
+          ]
+        },
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylacticreaction"
+              }
+            ]
+          }
+        ],
+        "description": "ChallengeProtocol.Severereactiontosubcutaneouscashewextract.Epinephrineadministered",
+        "onset": "2012-06-12",
+        "severity": "severe",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneous route"
+            }
+          ]
+        }
+      },
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "The patientreportsthattheonsetofurticariawaswithin15minutesofeatingcashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "Virat",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-17T10:08:05.868+00:00",
+      "source": "#JNydT4zeBmcnBnwB"
+    },
+    "type": "allergy",
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227037002",
+          "display": "Pollen allergy"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/Virat"
+    },
+    "recorder": {
+      "reference": "Practitioner/christeena"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "697814",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-23T16:12:38.557+00:00",
+      "source": "#UBuaS1uA0thNAicd"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Ibuprofen causes urticaria</div>"
+    },
+    "type": "allergy",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "387207008",
+          "display": "Ibuprofen"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/697738"
+    },
+    "recorder": {
+      "reference": "Practitioner/30166"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "126485001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "697815",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-23T16:12:38.557+00:00",
+      "source": "#UBuaS1uA0thNAicd"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">eggs causes hives</div>"
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "91930004",
+          "display": "Allergy to eggs"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/697738"
+    },
+    "onsetAge": {
+      "value": 4,
+      "unit": "year",
+      "system": "http://unitsofmeasure.org",
+      "code": "a"
+    },
+    "recorder": {
+      "reference": "Practitioner/30164"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "247472004",
+                "display": "Hives"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "422587007",
+                "display": "Nausea"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "422400008",
+                "display": "Vomiting"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "630524",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-28T11:05:07.992+00:00",
+      "source": "#fwBDxQCcaw8lkoTr"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "232350006",
+          "display": "House dust mite allergy"
+        }
+      ],
+      "text": "House dust mite allergy"
+    },
+    "patient": {
+      "reference": "Patient/630507"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "ashy",
+    "meta": {
+      "versionId": "2",
+      "lastUpdated": "2020-02-13T09:35:11.917+00:00",
+      "source": "#MYjyBkUWuQDWtp40"
+    },
+    "type": "allergy",
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227037002",
+          "display": "Esnophilia"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/ashy"
+    },
+    "recorder": {
+      "reference": "Practitioner/practitoner"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "630540",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-28T11:06:22.317+00:00",
+      "source": "#fbDta4G5SQFu31hJ"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419474003",
+          "display": "Allergy to mould"
+        }
+      ],
+      "text": "Allergy to mould"
+    },
+    "patient": {
+      "reference": "Patient/630526"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "634223",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-02T16:47:40.727+00:00",
+      "source": "#2E9ykK0dOTT7SGeW"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419474003",
+          "display": "Allergy to mould"
+        }
+      ],
+      "text": "Allergy to mould"
+    },
+    "patient": {
+      "reference": "Patient/634207"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1160593",
+              "display": "cashew nut allergenic extract Injectable Product"
+            }
+          ]
+        },
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylacticreaction"
+              }
+            ]
+          }
+        ],
+        "description": "ChallengeProtocol.Severereactiontosubcutaneouscashewextract.Epinephrineadministered",
+        "onset": "2012-06-12",
+        "severity": "severe",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneous route"
+            }
+          ]
+        }
+      },
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "The patientreportsthattheonsetofurticariawaswithin15minutesofeatingcashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "617497",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-07T11:51:46.483+00:00",
+      "source": "#ZWHPwgjgRzuFCvoS"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419474003",
+          "display": "Allergy to mould"
+        }
+      ],
+      "text": "Allergy to mould"
+    },
+    "patient": {
+      "reference": "Patient/617377"
+    },
+    "recordedDate": "2019-05-02T17:18:39-04:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "617498",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-07T11:51:46.483+00:00",
+      "source": "#ZWHPwgjgRzuFCvoS"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "232350006",
+          "display": "House dust mite allergy"
+        }
+      ],
+      "text": "House dust mite allergy"
+    },
+    "patient": {
+      "reference": "Patient/617377"
+    },
+    "recordedDate": "2019-05-02T17:18:39-04:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "617499",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-07T11:51:46.483+00:00",
+      "source": "#ZWHPwgjgRzuFCvoS"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "232347008",
+          "display": "Dander (animal) allergy"
+        }
+      ],
+      "text": "Dander (animal) allergy"
+    },
+    "patient": {
+      "reference": "Patient/617377"
+    },
+    "recordedDate": "2019-05-02T17:18:39-04:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "617500",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-07T11:51:46.483+00:00",
+      "source": "#ZWHPwgjgRzuFCvoS"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "418689008",
+          "display": "Allergy to grass pollen"
+        }
+      ],
+      "text": "Allergy to grass pollen"
+    },
+    "patient": {
+      "reference": "Patient/617377"
+    },
+    "recordedDate": "2019-05-02T17:18:39-04:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "617501",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-07T11:51:46.483+00:00",
+      "source": "#ZWHPwgjgRzuFCvoS"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419263009",
+          "display": "Allergy to tree pollen"
+        }
+      ],
+      "text": "Allergy to tree pollen"
+    },
+    "patient": {
+      "reference": "Patient/617377"
+    },
+    "recordedDate": "2019-05-02T17:18:39-04:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "617502",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-07T11:51:46.483+00:00",
+      "source": "#ZWHPwgjgRzuFCvoS"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "91930004",
+          "display": "Allergy to eggs"
+        }
+      ],
+      "text": "Allergy to eggs"
+    },
+    "patient": {
+      "reference": "Patient/617377"
+    },
+    "recordedDate": "2019-05-02T17:18:39-04:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "617503",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-07T11:51:46.483+00:00",
+      "source": "#ZWHPwgjgRzuFCvoS"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "91934008",
+          "display": "Allergy to nut"
+        }
+      ],
+      "text": "Allergy to nut"
+    },
+    "patient": {
+      "reference": "Patient/617377"
+    },
+    "recordedDate": "2019-05-02T17:18:39-04:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "Varsha",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-18T08:29:47.674+00:00",
+      "source": "#FKecyqD93btHymOC"
+    },
+    "type": "allergy",
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227037002",
+          "display": "Dust Allergy"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/Varsha"
+    },
+    "recorder": {
+      "reference": "Practitioner/Ajitha"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "634507",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-03T09:46:19.627+00:00",
+      "source": "#9vOVLQlhf4CpW4T4"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419474003",
+          "display": "Allergy to mould"
+        }
+      ],
+      "text": "Allergy to mould"
+    },
+    "patient": {
+      "reference": "Patient/634491"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1160593",
+              "display": "cashew nut allergenic extract Injectable Product"
+            }
+          ]
+        },
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylacticreaction"
+              }
+            ]
+          }
+        ],
+        "description": "ChallengeProtocol.Severereactiontosubcutaneouscashewextract.Epinephrineadministered",
+        "onset": "2012-06-12",
+        "severity": "severe",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneous route"
+            }
+          ]
+        }
+      },
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "The patientreportsthattheonsetofurticariawaswithin15minutesofeatingcashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "Titus",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-13T11:30:05.226+00:00",
+      "source": "#5KjUktmMzglBpkPZ"
+    },
+    "type": "allergy",
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227037002",
+          "display": "Peanut Allergy"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/Titus"
+    },
+    "recorder": {
+      "reference": "Practitioner/Vinod"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1097147",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-04-09T09:55:35.507+00:00",
+      "source": "#KNqKpTdJ08x7haJk"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active",
+          "display": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "unconfirmed",
+          "display": "Unconfirmed"
+        }
+      ]
+    },
+    "category": [
+      "medication"
+    ],
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "7980",
+          "display": "Penicillin G"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/1096151"
+    },
+    "recordedDate": "2020-10-03",
+    "recorder": {
+      "reference": "Practitioner/1096150"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "199004",
+                "display": "Decreased lactation"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "630652",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-28T11:19:11.641+00:00",
+      "source": "#HTwnhEMkY7uc6cjO"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419474003",
+          "display": "Allergy to mould"
+        }
+      ],
+      "text": "Allergy to mould"
+    },
+    "patient": {
+      "reference": "Patient/630634"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "630671",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-28T11:20:49.495+00:00",
+      "source": "#rfqbQIKLmN4V2Rkk"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "232350006",
+          "display": "House dust mite allergy"
+        }
+      ],
+      "text": "House dust mite allergy"
+    },
+    "patient": {
+      "reference": "Patient/630653"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "633029",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-29T20:50:12.992+00:00",
+      "source": "#dygFDL9Q93dqINLE"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419263009",
+          "display": "Allergy to tree pollen"
+        }
+      ],
+      "text": "Allergy to tree pollen"
+    },
+    "patient": {
+      "reference": "Patient/633013"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1160593",
+              "display": "cashewnutallergenicextractInjectableProduct"
+            }
+          ]
+        },
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylacticreaction"
+              }
+            ]
+          }
+        ],
+        "description": "ChallengeProtocol.Severereactiontosubcutaneouscashewextract.Epinephrineadministered",
+        "onset": "2012-06-12",
+        "severity": "severe",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneousroute"
+            }
+          ]
+        }
+      },
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "Thepatientreportsthattheonsetofurticariawaswithin15minutesofeatingcashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "Sravu",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-13T08:14:44.203+00:00",
+      "source": "#JArO9uQgVKVZqMkp"
+    },
+    "type": "allergy",
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227037002",
+          "display": "skin infection (substance)"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/Sravu"
+    },
+    "recorder": {
+      "reference": "Practitioner/chandu"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "632774",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-29T18:47:48.754+00:00",
+      "source": "#dM9HGNXA1F2Yo6lM"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "419474003",
+          "display": "Allergy to mould"
+        }
+      ],
+      "text": "Allergy to mould"
+    },
+    "patient": {
+      "reference": "Patient/632758"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1160593",
+              "display": "cashewnutallergenicextractInjectableProduct"
+            }
+          ]
+        },
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylacticreaction"
+              }
+            ]
+          }
+        ],
+        "description": "ChallengeProtocol.Severereactiontosubcutaneouscashewextract.Epinephrineadministered",
+        "onset": "2012-06-12",
+        "severity": "severe",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneousroute"
+            }
+          ]
+        }
+      },
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "Thepatientreportsthattheonsetofurticariawaswithin15minutesofeatingcashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "Shyam",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-13T06:22:31.972+00:00",
+      "source": "#CCphHCBYXHQBZVUx"
+    },
+    "type": "allergy",
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227037002",
+          "display": "peanut allergy (substance)"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/Shyam"
+    },
+    "recorder": {
+      "reference": "Practitioner/chandu"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "630632",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-28T11:11:41.058+00:00",
+      "source": "#ftvfEwxG4KvjfmY3"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "300913006",
+          "display": "Shellfish allergy"
+        }
+      ],
+      "text": "Shellfish allergy"
+    },
+    "patient": {
+      "reference": "Patient/630606"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "641830",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-13T13:55:30.337+00:00",
+      "source": "#s7orBrnfZHSQ1hZ4"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Ibuprofen causes urticaria</div>"
+    },
+    "type": "allergy",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "387207008",
+          "display": "Ibuprofen"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/641754"
+    },
+    "recorder": {
+      "reference": "Practitioner/30164"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "126485001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "641831",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-13T13:55:30.337+00:00",
+      "source": "#s7orBrnfZHSQ1hZ4"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">eggs causes hives</div>"
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "91930004",
+          "display": "Allergy to eggs"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/641754"
+    },
+    "onsetAge": {
+      "value": 4,
+      "unit": "year",
+      "system": "http://unitsofmeasure.org",
+      "code": "a"
+    },
+    "recorder": {
+      "reference": "Practitioner/30164"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "247472004",
+                "display": "Hives"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "422587007",
+                "display": "Nausea"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "422400008",
+                "display": "Vomiting"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "632857",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-29T20:40:44.501+00:00",
+      "source": "#Hi862XqztG1bTu97"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "232347008",
+          "display": "Dander (animal) allergy"
+        }
+      ],
+      "text": "Dander (animal) allergy"
+    },
+    "patient": {
+      "reference": "Patient/632812"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1160593",
+              "display": "cashewnutallergenicextractInjectableProduct"
+            }
+          ]
+        },
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylacticreaction"
+              }
+            ]
+          }
+        ],
+        "description": "ChallengeProtocol.Severereactiontosubcutaneouscashewextract.Epinephrineadministered",
+        "onset": "2012-06-12",
+        "severity": "severe",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneousroute"
+            }
+          ]
+        }
+      },
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "Thepatientreportsthattheonsetofurticariawaswithin15minutesofeatingcashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "697517",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-22T12:45:43.681+00:00",
+      "source": "#jngGoiQiA7rWiR0J"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "SNOMED-CT",
+          "code": "293619005",
+          "display": "Allergy to ibuprofen"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/697484"
+    },
+    "onsetDateTime": "2000-09-17"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "Samson",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-17T10:20:18.132+00:00",
+      "source": "#Hx9L8GhUoihiQdCS"
+    },
+    "type": "allergy",
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227037002",
+          "display": "Perfume Allergy"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/Samson"
+    },
+    "recorder": {
+      "reference": "Practitioner/Paulson"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1097205",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-04-09T13:43:40.628+00:00",
+      "source": "#sAT4JU5dr1pDq8s7"
+    },
+    "patient": {
+      "reference": "Patient/602639"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1097927",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-04-14T12:11:21.527+00:00",
+      "source": "#eD5FC5w5XPbqzrGG"
+    },
+    "patient": {
+      "reference": "Patient/602639"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1099688",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-04-15T12:44:16.018+00:00",
+      "source": "#zuQSG1Oov8nGwQW2"
+    },
+    "patient": {
+      "reference": "Patient/602639"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1099689",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-04-15T12:45:23.719+00:00",
+      "source": "#PLr83UHYeqUSJ10S"
+    },
+    "patient": {
+      "reference": "Patient/602639"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "921085",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-25T11:06:32.293+00:00",
+      "source": "#OR7kpMy2sPWIE751"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Ibuprofen causes urticaria</div>"
+    },
+    "type": "allergy",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "387207008",
+          "display": "Ibuprofen"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/921009"
+    },
+    "recorder": {
+      "reference": "Practitioner/30164"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "126485001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "921086",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-25T11:06:32.293+00:00",
+      "source": "#OR7kpMy2sPWIE751"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">eggs causes hives</div>"
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "91930004",
+          "display": "Allergy to eggs"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/921009"
+    },
+    "onsetAge": {
+      "value": 4,
+      "unit": "year",
+      "system": "http://unitsofmeasure.org",
+      "code": "a"
+    },
+    "recorder": {
+      "reference": "Practitioner/30164"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "247472004",
+                "display": "Hives"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "422587007",
+                "display": "Nausea"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "422400008",
+                "display": "Vomiting"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "Ramu",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-13T10:41:52.136+00:00",
+      "source": "#manUDdINWsmc7hob"
+    },
+    "type": "allergy",
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227037002",
+          "display": "sun uv infection (substance)"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/Ramu"
+    },
+    "recorder": {
+      "reference": "Practitioner/chandu"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "636325",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-04T07:52:47.639+00:00",
+      "source": "#681jhIEWfPwa8CUZ"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "232347008",
+          "display": "Dander (animal) allergy"
+        }
+      ],
+      "text": "Dander (animal) allergy"
+    },
+    "patient": {
+      "reference": "Patient/636280"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1160593",
+              "display": "cashewnutallergenicextractInjectableProduct"
+            }
+          ]
+        },
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylacticreaction"
+              }
+            ]
+          }
+        ],
+        "description": "ChallengeProtocol.Severereactiontosubcutaneouscashewextract.Epinephrineadministered",
+        "onset": "2012-06-12",
+        "severity": "severe",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneousroute"
+            }
+          ]
+        }
+      },
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "Thepatientreportsthattheonsetofurticariawaswithin15minutesofeatingcashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "633003",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-29T20:48:54.538+00:00",
+      "source": "#38GgkoA2aLW36JUf"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "232347008",
+          "display": "Dander (animal) allergy"
+        }
+      ],
+      "text": "Dander (animal) allergy"
+    },
+    "patient": {
+      "reference": "Patient/632983"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "substance": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1160593",
+              "display": "cashewnutallergenicextractInjectableProduct"
+            }
+          ]
+        },
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "39579001",
+                "display": "Anaphylacticreaction"
+              }
+            ]
+          }
+        ],
+        "description": "ChallengeProtocol.Severereactiontosubcutaneouscashewextract.Epinephrineadministered",
+        "onset": "2012-06-12",
+        "severity": "severe",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneousroute"
+            }
+          ]
+        }
+      },
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "Thepatientreportsthattheonsetofurticariawaswithin15minutesofeatingcashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "Ram",
+    "meta": {
+      "versionId": "5",
+      "lastUpdated": "2020-07-10T10:36:05.142+00:00",
+      "source": "#GdgqBboa5b28qiPL"
+    },
+    "type": "allergy",
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227037002",
+          "display": "sun uv infection (substance)"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/Ram"
+    },
+    "recorder": {
+      "reference": "Practitioner/practitioner"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "630587",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-28T11:08:11.153+00:00",
+      "source": "#xkgqmmSKprFEpWLL"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "232347008",
+          "display": "Dander (animal) allergy"
+        }
+      ],
+      "text": "Dander (animal) allergy"
+    },
+    "patient": {
+      "reference": "Patient/630542"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00"
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1094084",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-04-04T02:56:45.463+00:00",
+      "source": "#EG5x2Ki5W96qHSIW"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">&lt;b&gt;Category:&lt;/b&gt;  medication  &lt;b&gt;Display:&lt;/b&gt;  Penicillin G  &lt;b&gt;Severity:&lt;/b&gt;  high &lt;b&gt;Reaction:&lt;/b&gt;  Hives</div>"
+    },
+    "clinicalStatus": {
+      "text": "active"
+    },
+    "verificationStatus": {
+      "text": "unconfirmed"
+    },
+    "category": [
+      "medication"
+    ],
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "7980",
+          "display": "Penicillin G"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/642034"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "display": "Hives"
+              }
+            ]
+          }
+        ],
+        "description": "Hives"
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1094274",
+    "meta": {
+      "versionId": "3",
+      "lastUpdated": "2020-04-07T16:53:43.311+00:00",
+      "source": "#EvRYRExg2LjJrnNG"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">eggs causes hives</div>"
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "91930004",
+          "display": "Allergy to eggs"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/642034"
+    },
+    "onsetAge": {
+      "value": 4,
+      "unit": "year",
+      "system": "http://unitsofmeasure.org",
+      "code": "a"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "247472004",
+                "display": "Hives"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "422587007",
+                "display": "Nausea"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "422400008",
+                "display": "Vomiting"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "1094275",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-04-04T18:45:27.658+00:00",
+      "source": "#VOEqbx3E2oq0A41C"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Ibuprofen causes urticaria</div>"
+    },
+    "type": "allergy",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "387207008",
+          "display": "Ibuprofen"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/642034"
+    },
+    "recorder": {
+      "reference": "Practitioner/30164"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "126485001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "633049",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-29T20:51:38.755+00:00",
+      "source": "#bFTLmQNTWW9SoEhw"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "300913006",
+          "display": "Shellfish allergy"
+        }
+      ],
+      "text": "Shellfish allergy"
+    },
+    "patient": {
+      "reference": "Patient/633041"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "247472004",
+                "display": "Hives"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneousroute"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "921340",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-25T20:05:27.096+00:00",
+      "source": "#QmC7JliuddsZS99e"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">&lt;b&gt;Category:&lt;/b&gt;  medication  &lt;b&gt;Display:&lt;/b&gt;  Penicillin G  &lt;b&gt;Severity:&lt;/b&gt;  high &lt;b&gt;Reaction:&lt;/b&gt;  Hives</div>"
+    },
+    "clinicalStatus": {
+      "text": "active"
+    },
+    "verificationStatus": {
+      "text": "unconfirmed"
+    },
+    "category": [
+      "medication"
+    ],
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "7980",
+          "display": "Penicillin G"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/697837"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "display": "Hives"
+              }
+            ]
+          }
+        ],
+        "description": "Hives"
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "639017",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-06T13:43:07.255+00:00",
+      "source": "#9zQcZGXgmDr7uOUs"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active",
+          "display": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "716186003",
+          "display": "Cashew Allergy"
+        }
+      ],
+      "text": "Cashew Allergy"
+    },
+    "patient": {
+      "reference": "Patient/639010"
+    },
+    "recordedDate": "2019-09-06T15:37:31-06:00",
+    "recorder": {
+      "reference": "Practitioner/639009"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "description": "Itchy mouth and throat, eyes or skin",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "Patient feels urticaria in 15 minutes of eating cashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "639018",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-06T13:44:05.373+00:00",
+      "source": "#q7IBQqeyIpptPMJq"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "inactive",
+          "display": "Inactive"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "category": [
+      "food"
+    ],
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "91930004",
+          "display": "Allergy to eggs"
+        }
+      ],
+      "text": "Allergy to eggs"
+    },
+    "patient": {
+      "reference": "Patient/639010"
+    },
+    "recordedDate": "2019-11-27T15:37:31-06:00",
+    "recorder": {
+      "reference": "Practitioner/639009"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "1860003",
+                "display": "Fluid volume disorder"
+              }
+            ]
+          }
+        ],
+        "description": "Allergetic to Egg",
+        "severity": "mild",
+        "note": [
+          {
+            "text": "Patient reactive if egg intake."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "639402",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-09T12:23:09.727+00:00",
+      "source": "#EaLeiBTRR4zsKU8R"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active",
+          "display": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "716186003",
+          "display": "Cashew Allergy"
+        }
+      ],
+      "text": "Cashew Allergy"
+    },
+    "patient": {
+      "reference": "Patient/639010"
+    },
+    "recordedDate": "2019-09-06T15:37:31-06:00",
+    "recorder": {
+      "reference": "Practitioner/639009"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "description": "Itchy mouth and throat, eyes or skin",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "Patient feels urticaria in 15 minutes of eating cashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "639403",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-03-09T12:27:42.402+00:00",
+      "source": "#v77tUVNQUy9OafUD"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active",
+          "display": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed",
+          "display": "Confirmed"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "716186003",
+          "display": "Cashew Allergy"
+        }
+      ],
+      "text": "Cashew Allergy"
+    },
+    "patient": {
+      "reference": "Patient/639010"
+    },
+    "recordedDate": "2019-09-06T15:37:31-06:00",
+    "recorder": {
+      "reference": "Practitioner/639009"
+    },
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "64305001",
+                "display": "Urticaria"
+              }
+            ]
+          }
+        ],
+        "description": "Itchy mouth and throat, eyes or skin",
+        "severity": "moderate",
+        "note": [
+          {
+            "text": "Patient feels urticaria in 15 minutes of eating cashews."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "Tina",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-12T06:51:34.489+00:00",
+      "source": "#0svWtIONOnvDsntj"
+    },
+    "type": "allergy",
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227037002",
+          "display": "skin infection (substance)"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/Tina"
+    },
+    "recorder": {
+      "reference": "Practitioner/Suraj"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "sid",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-13T08:59:30.086+00:00",
+      "source": "#Nb62JtrnoQmTcFCI"
+    },
+    "type": "allergy",
+    "criticality": "high",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "227037002",
+          "display": "Fungus"
+        }
+      ]
+    },
+    "patient": {
+      "reference": "Patient/sid"
+    },
+    "recorder": {
+      "reference": "Practitioner/sheetal"
+    }
+  },
+  {
+    "resourceType": "AllergyIntolerance",
+    "id": "632726",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2020-02-29T15:16:27.588+00:00",
+      "source": "#Irq0VgQGvcuVLs0f"
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "300913006",
+          "display": "Shellfish allergy"
+        }
+      ],
+      "text": "Shellfish allergy"
+    },
+    "patient": {
+      "reference": "Patient/632718"
+    },
+    "recordedDate": "1972-11-19T15:34:48-05:00",
+    "reaction": [
+      {
+        "manifestation": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "247472004",
+                "display": "Hives"
+              }
+            ]
+          }
+        ],
+        "onset": "2004",
+        "severity": "moderate",
+        "exposureRoute": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34206005",
+              "display": "Subcutaneousroute"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
