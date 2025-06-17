@@ -1,5 +1,5 @@
-scripts/data/raw_json/
-target/
-dbt_packages/
-logs/
+seeds/*
+scripts/data/*
 .envrc
+logs/
+target/
