@@ -1,0 +1,151 @@
+version: 2
+
+models:
+  - name: stage_patient
+    description: "Unpacked Patient information"
+    columns:
+      - name: patient_id
+        description: "Patient Unique ID"
+        tests: &id_tests
+          - not null
+          - unique
+      - name: gender
+        description: "Patient gender, standardized to 'male', 'female', or 'other'"
+      - name: birth_date
+        description: "Patient date of birth"
+
+  - name: stage_observation
+    description: "Unpacked observation data from raw FHIR Observation resource"
+    columns:
+      - name: id
+        description: "Unique identifier for each observation"
+        tests: *id_tests
+      - name: patient_id
+        description: "Patient Unique ID linked to this observation"
+        tests:
+          - not_null
+      - name: loinc_code
+        description: "LOINC code representing the type of lab test or observation"
+        tests:
+          - not_null
+      - name: consumer_name
+        description: "LOINC human readable consumer name corresponding to LOINC code"
+        tests:
+          - not_null
+      - name: observation_time
+        description: "Timestamp when the observation was made"
+        tests:
+          - not_null
+      - name: result_value
+        description: "Numeric value of the observation result"
+      - name: unit
+        description: "Unit of the observation result value"
+
+  - name: stage_condition
+    description: "Staged and unpacked FHIR Condition records from raw_condition"
+    columns:
+      - name: id
+        description: "Unique identifier for the condition record, from the top-level 'id' field"
+        tests: *id_tests
+      - name: patient_id
+        description: "Patient ID extracted from raw_response.subject.reference"
+        tests:
+          - not_null
+      - name: encounter_id
+        description: "Encounter ID during which this condition was recorded, from raw_response.encounter.reference"
+      - name: condition_code
+        description: "Code representing the condition, typically SNOMED CT"
+        tests:
+          - not_null
+      - name: coding_system
+        description: "System the condition code comes from, e.g., http://snomed.info/sct"
+      - name: condition_display
+        description: "Human-readable name of the condition"
+      - name: onset_datetime
+        description: "Date and time when the condition began (onsetDateTime)"
+      - name: recorded_datetime
+        description: "Timestamp when the condition was recorded (recordedDate)"
+      - name: clinical_status
+        description: "Current clinical status of the condition (e.g., active, inactive)"
+      - name: verification_status
+        description: "Verification status of the condition (e.g., confirmed, unconfirmed)"
+
+  - name: stage_encounter
+    description: "Staged FHIR Encounter data unpacked from raw_encounter"
+    columns:
+      - name: patient_id
+        description: "Patient ID this encounter is associated with, from top-level base.id"
+        tests: *id_tests
+      - name: encounter_id
+        description: "Unique identifier of the encounter, from raw_response.id"
+        tests:
+          - not_null
+          - unique
+      - name: encounter_start
+        description: "Start time of the encounter, from raw_response.period.start"
+        tests:
+          - not_null
+      - name: encounter_end
+        description: "End time of the encounter, from raw_response.period.end"
+      - name: encounter_class
+        description: "Classification of the encounter (e.g., inpatient, outpatient), from raw_response.class.code"
+      - name: service_code
+        description: "Code for the specific type of service provided during the encounter, from serviceType.coding[0].code"
+
+sources:
+  - name: raw
+    schema: RAW
+    tables:
+      - name: raw_patient
+        description: "Raw FHIR simulated Patient records"
+        columns:
+          - name: id
+            tests: *id_tests
+
+      - name: raw_allergyintolerance
+        description: "Raw FHIR AllergyIntolerance resource records"
+        columns:
+          - name: id
+            tests: *id_tests
+
+      - name: raw_condition
+        description: "Raw FHIR Condition resource records"
+        columns:
+          - name: id
+            tests: *id_tests
+
+      - name: raw_device
+        description: "Raw FHIR Device resource records"
+        columns:
+          - name: id
+            tests: *id_tests
+
+      - name: raw_encounter
+        description: "Raw FHIR Encounter resource records"
+        columns:
+          - name: id
+            tests: *id_tests
+
+      - name: raw_immunization
+        description: "Raw FHIR Immunization resource records"
+        columns:
+          - name: id
+            tests: *id_tests
+
+      - name: raw_medicationrequest
+        description: "Raw FHIR MedicationRequest resource records"
+        columns:
+          - name: id
+            tests: *id_tests
+
+      - name: raw_observation
+        description: "Raw Observations from Encounters with Patients"
+        columns:
+          - name: id
+            tests: *id_tests
+
+      - name: raw_procedure
+        description: "Raw FHIR Procedure resource records"
+        columns:
+          - name: id
+            tests: *id_tests
