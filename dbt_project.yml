@@ -1,16 +1,8 @@
+name: "ecart"
+version: "1.0.0"
 
-# Name your project! Project names should contain only lowercase characters
-# and underscores. A good package name should reflect your organization's
-# name or the intended use of these models
-name: 'ecart'
-version: '1.0.0'
+profile: "ecart"
 
-# This setting configures which "profile" dbt uses for this project.
-profile: 'ecart'
-
-# These configurations specify where dbt should look for different types of files.
-# The `model-paths` config, for example, states that models in this project can be
-# found in the "models/" directory. You probably won't need to change these!
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
@@ -18,19 +10,48 @@ seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 
-clean-targets:         # directories to be removed by `dbt clean`
+clean-targets:
   - "target"
   - "dbt_packages"
 
-
-# Configuring models
-# Full documentation: https://docs.getdbt.com/docs/configuring-models
-
-# In this example config, we tell dbt to build all models in the example/
-# directory as views. These settings can be overridden in the individual model
-# files using the `{{ config(...) }}` macro.
 models:
   ecart:
-    # Config indicated by + and applies to all files under models/example/
-    example:
+    STAGE:
       +materialized: view
+      +persist_docs:
+        relation: true
+        columns: true
+
+sources:
+  +persist_docs:
+    relation: true
+    columns: true
+
+seeds:
+  ecart:
+    +persist_docs:
+      relation: true
+      columns: true
+    +schema: DIM
+    dim_loinc_answer_list:
+      file: dim_loinc_answer_list.csv
+    dim_loinc_answer_list_link:
+      file: dim_loinc_answer_list_link.csv
+    dim_loinc_consumer_name:
+      file: dim_loinc_consumer_name.csv
+    dim_loinc_document_ontology:
+      file: dim_loinc_document_ontology.csv
+    dim_loinc_group:
+      file: dim_loinc_group.csv
+    dim_loinc_group_loinc_terms:
+      file: dim_loinc_group_loinc_terms.csv
+    dim_loinc_imaging_document_codes:
+      file: dim_loinc_imaging_document_codes.csv
+    dim_loinc_map_to:
+      file: dim_loinc_map_to.csv
+    dim_loinc_panels_and_forms:
+      file: dim_loinc_panels_and_forms.csv
+    dim_loinc_part:
+      file: dim_loinc_part.csv
+    dim_loinc_part_link_primary:
+      file: dim_loinc_part_link_primary.csv
