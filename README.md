@@ -1,25 +1,92 @@
-# Patient Risk Simulation Pipeline
+# 🏥 Patient Risk Simulation Pipeline
 
-## With Public FHIR Data
+### with Public FHIR Data
 
-The objective of this repository is to simulate a data pipeline for predictive modeling of patient deterioration risk.
+This repository simulates a modern analytics engineering pipeline for predicting patient deterioration risk, using open healthcare data.
 
-This project draws conceptual inspiration from the Electronic Cardiac Arrest Risk Triage (eCART) model, a proprietary clinical risk scoring system developed and owned by [AgileMD](https://www.agilemd.com/).
-No proprietary code, data, or intellectual property from AgileMD is accessed, used, or replicated here.
+Inspired by the **eCART** (Electronic Cardiac Arrest Risk Triage) model from [AgileMD](https://www.agilemd.com), this project **does not** use any proprietary data or code. Instead, it leverages public FHIR APIs to demonstrate how raw EHR data can be transformed into predictive insights.
 
-This implementation is an educational approximation built on publicly available data out of personal interest by the author.
+> 📌 **Disclaimer:** This is a personal, educational project. It is not affiliated with AgileMD or intended for clinical use.
 
-The project will consume sample FHIR patient data from a public API to store raw Vitals, Labs, Patient Data, and Historical Trends. The pipeline will clean, map, and build eCART-like Machine Learning training and testing data, and a Logistic Regression model will be built to predict patient deterioration risks.
+---
 
-Raw FHIR data is stored temporarily in scripts/data/raw_json during extraction, organized by Resource Type. This directory is excluded from version control, regenerate using scripts/extract_fhir.py.
+## 🔧 Pipeline Overview
 
-Public metadata from major clinical coding systems is ingested to enable dimensional modeling and semantically enrich FHIR resource data including:
+The project extracts **FHIR resources** (Patient, Observation, Condition, Encounter, MedicationRequest) from a public API and processes them into a Snowflake-based data warehouse.
 
-- LOINC (Logical Observation Identifiers Names and Codes) for lab test and clinical observation standardization
+It follows a **Bronze → Silver → Gold** approach:
 
-[Find me on LinkedIn](https://www.linkedin.com/in/chrisadan/)
+### 🔹 RAW
 
-## Acknowledgements
+Ingests unprocessed FHIR JSON using:
 
-[HAPI FHIR Test/Demo Server R4 Endpoint](https://hapi.fhir.org/baseR4/swagger-ui/?page=All)
-This project includes code from the HAPI FHIR project, licensed under the Apache 2.0 License.
+- `scripts/extract_fhir.py`
+- `scripts/load_to_snowflake.py`  
+  Raw tables include `RAW_PATIENT`, `RAW_OBSERVATION`, etc., with full JSON payloads.
+
+### 🔸 DIM
+
+Seeded dimensional tables for semantic mapping using:
+
+- `scripts/generate_seeds.py`  
+  Focuses on:
+- `DIM_LOINC_*` tables for lab and observation standardization
+
+### 🪞 STAGE
+
+Unpacks structured fields from raw JSON into tabular form.  
+Includes:
+
+- `stage_patient`
+- `stage_encounter`
+- `stage_observation`
+- `stage_condition`
+
+### 🧬 FEATURES_CORE
+
+Transforms structured data into features for machine learning.  
+Includes:
+
+- `ecart_demographics`: Age, gender, admission type
+- `ecart_lab_features`: Lab values by LOINC mapping
+- `lab_observation_mapped`: Fully normalized observation data using LOINC
+
+### 📈 ANALYTICS
+
+Summarizes time-series and KPI metrics for business monitoring.
+
+- `daily_retention`: Patient counts by day
+- `kpi_snapshot`: Daily KPIs (volume, average vitals, etc.)
+- `kpi_week_over_week`: Weekly trends and deltas in patient counts
+
+---
+
+## 📂 Local Setup
+
+This repo requires:
+
+- Python 3.9+
+- dbt + Snowflake profile
+- `scripts/data/raw_json/` (not version-controlled, but regenerable)
+
+Run the pipeline:
+
+```bash
+python scripts/extract_fhir.py
+python scripts/load_to_snowflake.py
+dbt seed
+dbt run
+```
+
+## 📚 Data Sources
+
+- ✅ [HAPI FHIR Demo Server (R4)](https://hapi.fhir.org/baseR4/swagger-ui/?page=All)
+- ✅ [LOINC Public Dataset](https://loinc.org/downloads/loinc/)
+
+## 🙌 Acknowledgements
+
+This project includes material from the HAPI FHIR project, licensed under the Apache 2.0 License.
+
+## 👤 [Find Chris Adan on LinkedIn](https://www.linkedin.com/in/chrisadan/)
+
+### [Read on Medium](https://upandtothewrite.medium.com/)
