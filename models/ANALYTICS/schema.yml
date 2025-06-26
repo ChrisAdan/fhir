@@ -39,3 +39,41 @@ models:
         description: Total number of encounters on a given day for a cohort.
         tests:
           - not_null
+  - name: kpi_snapshot
+    description: >
+      Snapshot of core KPIs for the current date. Includes counts of patients,
+      encounters, conditions, and the average observation value.
+    columns:
+      - name: snapshot_date
+        description: Date when the snapshot was taken (should equal current_date).
+        tests:
+          - not_null
+
+      - name: num_patients
+        description: Total number of unique patients in the dataset.
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer
+
+      - name: num_encounters
+        description: Total number of unique patient encounters.
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer
+
+      - name: num_conditions
+        description: Total number of unique patient conditions.
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: integer
+
+      - name: avg_observation_value
+        description: Average numeric value of all patient observations.
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              strictly: false
