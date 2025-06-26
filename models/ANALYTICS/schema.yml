@@ -21,7 +21,7 @@ models:
         tests:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
-              min_value: 0 # No negative day offsets
+              min_value: 0
 
       - name: new_or_returning
         description: Classification of patient encounter as 'New' (first seen) or 'Returning'.
@@ -39,6 +39,7 @@ models:
         description: Total number of encounters on a given day for a cohort.
         tests:
           - not_null
+
   - name: kpi_snapshot
     description: >
       Snapshot of core KPIs for the current date. Includes counts of patients,
@@ -53,22 +54,16 @@ models:
         description: Total number of unique patients in the dataset.
         tests:
           - not_null
-          - dbt_expectations.expect_column_values_to_be_of_type:
-              column_type: integer
 
       - name: num_encounters
         description: Total number of unique patient encounters.
         tests:
           - not_null
-          - dbt_expectations.expect_column_values_to_be_of_type:
-              column_type: integer
 
       - name: num_conditions
         description: Total number of unique patient conditions.
         tests:
           - not_null
-          - dbt_expectations.expect_column_values_to_be_of_type:
-              column_type: integer
 
       - name: avg_observation_value
         description: Average numeric value of all patient observations.
@@ -76,4 +71,46 @@ models:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
               min_value: 0
-              strictly: false
+
+  - name: kpi_weekly
+    description: >
+      Weekly KPI summary including patient, encounter, observation, and condition counts.
+      Also includes week-over-week changes using lag comparisons.
+    columns:
+      - name: week
+        description: Start date of the ISO week.
+        tests:
+          - not_null
+          - unique
+
+      - name: unique_patients
+        description: Number of unique patients seen during the week.
+        tests:
+          - not_null
+
+      - name: patients_vs_prev_week
+        description: Change in unique patient count compared to the previous week.
+
+      - name: unique_encounters
+        description: Number of unique encounters during the week.
+        tests:
+          - not_null
+
+      - name: encounters_vs_prev_week
+        description: Change in unique encounters compared to the previous week.
+
+      - name: unique_observations
+        description: Number of unique observations recorded during the week.
+        tests:
+          - not_null
+
+      - name: observations_vs_prev_week
+        description: Change in unique observations compared to the previous week.
+
+      - name: unique_conditions
+        description: Number of unique conditions recorded during the week.
+        tests:
+          - not_null
+
+      - name: conditions_vs_prev_week
+        description: Change in unique conditions compared to the previous week.

@@ -20,7 +20,7 @@ date_tracking as (
         encs.encounter_id,
         encs.patient_id,
         cohorts.cohort_day,
-        datediff('day', encs.encounter_day, cohorts.cohort_day) as date_index
+        datediff('day', cohorts.cohort_day, encs.encounter_day) as date_index
     from encounters as encs
     left join cohorts
         on encs.patient_id = cohorts.patient_id

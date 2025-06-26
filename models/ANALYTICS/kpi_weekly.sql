@@ -32,15 +32,16 @@ change_tracking as (
 
 select
     week,
-    unique_patients,
-    unique_patients - prev_week_patients as patients_vs_prev_week,
 
-    unique_encounters,
-    unique_encounters - prev_week_encounters as encounters_vs_prev_week,
+    unique_patients::int as unique_patients,
+    (unique_patients - prev_week_patients)::int as patients_vs_prev_week,
 
-    unique_observations,
-    unique_observations - prev_week_observations as observations_vs_prev_week,
+    unique_encounters::int as unique_encounters,
+    (unique_encounters - prev_week_encounters)::int as encounters_vs_prev_week,
 
-    unique_conditions,
-    unique_conditions - prev_week_conditions as conditions_vs_prev_week
+    unique_observations::int as unique_observations,
+    (unique_observations - prev_week_observations)::int as observations_vs_prev_week,
+
+    unique_conditions::int as unique_conditions,
+    (unique_conditions - prev_week_conditions)::int as conditions_vs_prev_week
 from change_tracking

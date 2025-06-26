@@ -1,9 +1,9 @@
 with base as(
     select
         current_date as snapshot_date,
-        count(distinct patient.patient_id) as num_patients,
-        count(distinct encounter.encounter_id) as num_encounters,
-        count(distinct condition.condition_id) as num_conditions,
+        count(distinct patient.patient_id)::int as num_patients,
+        count(distinct encounter.encounter_id)::int as num_encounters,
+        count(distinct condition.condition_id)::int as num_conditions,
         avg(observation.result_value::float) as avg_observation_value
     from {{ ref('stage_patient') }} as patient
     left join {{ ref('stage_encounter') }} as encounter
