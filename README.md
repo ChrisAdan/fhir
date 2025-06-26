@@ -17,7 +17,7 @@ Public metadata from major clinical coding systems is ingested to enable dimensi
 
 - LOINC (Logical Observation Identifiers Names and Codes) for lab test and clinical observation standardization
 
-[Find me on Linkedin](https://www.linkedin.com/in/chrisadan/)
+[Find me on LinkedIn](https://www.linkedin.com/in/chrisadan/)
 
 ## Acknowledgements
 
