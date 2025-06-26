@@ -17,7 +17,7 @@ models:
   - name: stage_observation
     description: "Unpacked observation data from raw FHIR Observation resource"
     columns:
-      - name: id
+      - name: observation_id
         description: "Unique identifier for each observation"
         tests: *id_tests
       - name: patient_id
@@ -44,7 +44,7 @@ models:
   - name: stage_condition
     description: "Staged and unpacked FHIR Condition records from raw_condition"
     columns:
-      - name: id
+      - name: condition_id
         description: "Unique identifier for the condition record, from the top-level 'id' field"
         tests: *id_tests
       - name: patient_id
@@ -75,7 +75,8 @@ models:
     columns:
       - name: patient_id
         description: "Patient ID this encounter is associated with, from top-level base.id"
-        tests: *id_tests
+        tests:
+          - not_null
       - name: encounter_id
         description: "Unique identifier of the encounter, from raw_response.id"
         tests:

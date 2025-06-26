@@ -3,8 +3,9 @@
     persist_docs={'relation': True, 'columns': True}) }}
 
 select
-    base.id as id,
+    base.id as observation_id,
     split_part(base.raw_response:subject.reference::string, '/', 2) as patient_id,
+    split_part(base.raw_response:encounter.reference::string, '/', 2) as encounter_id,
     base.raw_response:code.coding[0].code::string as loinc_code,
     name.consumername as consumer_name, 
     base.raw_response:effectiveDateTime::timestamp_ntz as observation_time,

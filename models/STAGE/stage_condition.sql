@@ -3,7 +3,7 @@
     persist_docs={'relation': True, 'columns': True}) }}
 
 select
-    base.id,
+    base.id as condition_id,
     split_part(base.raw_response:subject.reference::string, '/', 2) as patient_id,
     split_part(base.raw_response:encounter.reference::string, '/', 2) as encounter_id,
     base.raw_response:code.coding[0].code::string as condition_code,

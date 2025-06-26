@@ -3,8 +3,8 @@
     persist_docs={'relation': True, 'columns': True}) }}
 
 select
-    base.id as patient_id,
-    base.raw_response:id::string as encounter_id,
+    base.id as encounter_id,
+    split_part(base.raw_response:subject.reference::string, '/', 2) as patient_id,
     base.raw_response:period.start::timestamp_ntz as encounter_start,
     base.raw_response:period.end::timestamp_ntz as encounter_end,
     base.raw_response:class.code::string as encounter_class,
