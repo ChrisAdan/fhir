@@ -1,0 +1,59 @@
+version: 2
+
+sources:
+  - name: dim
+    schema: DIM
+    tables:
+      - name: dim_loinc_consumer_name
+
+models:
+  - name: demographics
+    description: "Core demographic features derived from patient data"
+    columns:
+      - name: patient_id
+        tests: &id_tests
+          - not_null
+          - unique
+      - name: gender
+        description: "Patient gender, standardized to 'male', 'female', or 'other'"
+      - name: age
+        description: "Age in years"
+  - name: lab_observation_mapped
+    description: >
+      Intermediate model mapping raw lab observations from stage_observation to descriptive
+      feature names using LOINC consumer mappings. Filters out null result values.
+    columns:
+      - name: patient_id
+        description: Unique identifier for the patient
+        tests:
+          - not_null
+
+      - name: observation_time
+        description: Timestamp when the lab observation occurred
+
+      - name: loinc_code
+        description: LOINC code for the lab test
+
+      - name: feature_name
+        description: Human-readable lab feature name (e.g., WBC, Lactate)
+
+      - name: result_value
+        description: Numeric result of the lab test
+
+  - name: lab_features
+    description: >
+      Pivoted lab features per patient, filtered to most recent values per type
+      using the mapped lab names from lab_observation_mapped. Produces one row per patient
+      with key lab features as columns.
+    columns:
+      - name: patient_id
+        description: Unique identifier for the patient
+        tests:
+          - not_null
+          - unique
+
+      - name: wbc
+        description: Most recent WBC (white blood cell) lab result for the patient
+
+      - name: lactate
+        description: Most recent lactate lab result for the patient

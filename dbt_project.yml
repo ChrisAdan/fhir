@@ -16,11 +16,14 @@ clean-targets:
 
 models:
   ecart:
+    +materialized: view
+    +persist_docs:
+      relation: true
+      columns: true
     STAGE:
-      +materialized: view
-      +persist_docs:
-        relation: true
-        columns: true
+      +schema: STAGE
+    FEATURES_CORE:
+      +schema: FEATURES_CORE
 
 sources:
   +persist_docs:
