@@ -1,0 +1,41 @@
+version: 2
+
+models:
+  - name: timeseries_patient_retention
+    description: >
+      Tracks patient retention over time using a cohort-based approach.
+      Includes first encounter dates, follow-ups, and new/returning classification.
+    columns:
+      - name: encounter_day
+        description: The date of the encounter.
+        tests:
+          - not_null
+
+      - name: cohort_day
+        description: The first recorded encounter date per patient (cohort start).
+        tests:
+          - not_null
+
+      - name: date_index
+        description: Days since the patient’s first encounter.
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0 # No negative day offsets
+
+      - name: new_or_returning
+        description: Classification of patient encounter as 'New' (first seen) or 'Returning'.
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["New", "Returning"]
+
+      - name: unique_patients
+        description: Number of unique patients seen on a given day for a cohort.
+        tests:
+          - not_null
+
+      - name: total_encounters
+        description: Total number of encounters on a given day for a cohort.
+        tests:
+          - not_null

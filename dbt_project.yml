@@ -24,6 +24,9 @@ models:
       +schema: STAGE
     FEATURES_CORE:
       +schema: FEATURES_CORE
+    ANALYTICS:
+      +schema: ANALYTICS
+      +materialized: table
 
 sources:
   +persist_docs:
