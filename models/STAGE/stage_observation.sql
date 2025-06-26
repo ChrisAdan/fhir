@@ -14,3 +14,6 @@ from {{ source('raw', 'raw_observation' ) }} as base
 left join {{ ref('dim_loinc_consumer_name') }} as name
 on name.loincnumber = base.raw_response:code.coding[0].code::string
 where raw_response:code.coding[0].system = 'http://loinc.org'
+and name.consumername is not null
+having loinc_code is not null
+and observation_time is not null

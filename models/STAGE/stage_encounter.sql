@@ -10,3 +10,4 @@ select
     base.raw_response:class.code::string as encounter_class,
     base.raw_response:serviceType.coding[0].code::string as service_code
 from {{ source('raw', 'raw_encounter')}} as base
+having encounter_start is not null

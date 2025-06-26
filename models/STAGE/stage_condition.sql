@@ -14,3 +14,4 @@ select
     base.raw_response:clinicalStatus.coding[0].code::string as clinical_status,
     base.raw_response:verificationStatus.coding[0].code::string as verification_status
 from {{ source('raw', 'raw_condition') }} as base
+having condition_code is not null
