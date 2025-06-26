@@ -3,3 +3,4 @@ scripts/data/*
 .envrc
 logs/
 target/
+dbt_packages/
